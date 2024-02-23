@@ -1,0 +1,80 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.link {
+    box-shadow: 0 0 3px 0;
+    margin: 50px auto;
+    max-width: 320px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px; /* Adiciona curvatura aos cantos */
+    transition: background-color 0.3s, color 0.3s; /* Adiciona transição suave */
+}
+
+#cad {
+    margin-bottom: 15px;
+    text-decoration: none;
+    background: #ff0000;
+    color: #FFFFFF;
+    width: 100%;
+    border: 0;
+    font-size: 14px;
+    outline: 0;
+    padding: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+    resize: none;
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    border-radius: 8px; /* Adiciona curvatura aos cantos */
+    transition: background-color 0.3s, color 0.3s; /* Adiciona transição suave */
+}
+#cad a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.select {
+    max-width: 320px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 150px;
+    border: 0;
+    font-size: 14px;
+    outline: 10;
+    padding: 10px;
+    background: #FFFFFF;
+    color: #FFFFFF;
+
+    background: #e2e2e2e2;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+

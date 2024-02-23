@@ -1,0 +1,25 @@
+﻿@model PaginaModel
+@{
+    ViewData["Title"] = "Dados";
+}
+<h1>@ViewData["Title"]</h1>
+<div>
+    <p>Seu cpf : </p>
+    <span>
+        @Model.CPF
+    </span>
+    <button id="cad">
+
+        <a class="nav-link text-dark" href="/Home/Privacy">Analise dos dados </a>
+      
+    </button>
+    <h2>Lista de Genero</h2>
+    
+
+
+    <label for="genero">Gênero:</label>
+    <select id="genero" name="genero" onblur="validaGenero(this.id)">
+        <!-- Opções serão adicionadas dinamicamente aqui -->
+    </select>
+</div>
+
